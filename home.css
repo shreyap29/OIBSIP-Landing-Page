@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+#h4 {
+    color: rgb(250, 249, 249);
+}
+
+header {
+    background: url(https://i.postimg.cc/QNJ5xpXZ/coconut-shells-with-fresh-natural-colorful-ice-cream-light-green-background-70626-11579.jpg);
+    height: 100vh;
+   
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li {
+    display: inline-block;
+}
+
+.nav-area li a {
+    color: rgb(3, 2, 58);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav-area li a:hover {
+    background: #fff;
+    color: rgb(8, 0, 0);
+}
+
+.logo {
+    float: right;
+}
+
+.logo img {
+    
+    border-radius: 60%;
+    
+    
+    width: 70%;
+    padding: 15px 0;
+}
+
+.welcome-text {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 15% 20%;
+    text-align: center;
+}
+
+.welcome-text h1 {
+    text-align: center;
+    color: rgba(40, 158, 179, 0.904);
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.welcome-text h4 {
+    text-align: center;
+    color: rgba(2, 15, 1, 0.856);
+    font-size: 20px;
+}
+
+.welcome-text h1 span {
+    color: #83062b;
+}
+
+.welcome-text a {
+    border: 1px solid rgb(180, 12, 49);
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: rgb(189, 10, 25);
+}
+
+.welcome-text a:hover {
+    background: rgba(236, 94, 137, 0.459);
+    color: rgb(46, 1, 18);
+}
+
+
+/*resposive*/
+
+@media (max-width:600px) {
+    .wrapper {
+        width: 100%;
+    }
+    .logo {
+        float: none;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+    img {
+        width: 0px;
+    }
+    .nav-area {
+        float: none;
+        margin-top: 0;
+    }
+    .nav-area li a {
+        padding: 5px;
+        font-size: 11px;
+    }
+    .nav-area {
+        text-align: center;
+    }
+    .welcome-text {
+        width: 100%;
+        height: auto;
+        margin: 30% 0;
+    }
+    .welcome-text h1 {
+        font-size: 30px;
+    }
+}
